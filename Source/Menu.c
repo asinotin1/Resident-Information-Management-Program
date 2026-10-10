@@ -116,7 +116,7 @@ void Menu(const char* filename, MemberNode** list) {
             editMember(*list);
             break;
         case 6:
-            printf("Nhập thông tin số thứ tự dân cư xóa khỏi danh sach : \n");
+            printf("Nhập thông tin dân cư xóa khỏi danh sach : \n");
             deleteMember(*list);
             break;
         default:
